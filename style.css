@@ -395,8 +395,8 @@ header {
 
 .shipping-firm {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  gap: 20px; }
 
 .about-shipping {
   font-weight: 400;
