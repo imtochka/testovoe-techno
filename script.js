@@ -238,22 +238,6 @@ document.querySelector(".header-top-svg").onclick = function () {
   document.querySelector(".burger-block").style.display = "block";
 };
 
-///// Вешаю обработчик на стрелку, для отрытия блока с доставкой.
-// document.querySelector(".shipping-heading").onclick = function () {
-//   document.querySelector(".arrow-shipping").classList.toggle("rotate");
-//   document
-//     .querySelector(".shipping-hidden")
-//     .classList.toggle("shipping-unhidden");
-// };
-
-// document.querySelector(".shipping-heading").onclick = function () {
-//   var dropdownContent = document.querySelector(".dropdown-content");
-//   var parentHeight = dropdownContent.parentElement.clientHeight; // Получение высоты родительского элемента
-//   dropdownContent.style.maxHeight = 0; // Сброс максимальной высоты перед измерением размеров
-//   var contentHeight = dropdownContent.scrollHeight; // Получение фактической высоты контента
-//   dropdownContent.style.maxHeight =
-//     (contentHeight > parentHeight ? parentHeight : contentHeight) + "px"; // Задание максимальной высоты в пикселях
-// };
 document.querySelector(".shipping-heading").onclick = function () {
   let dropdownContent = document.querySelector(".dropdown-content");
   dropdownContent.classList.toggle("show");
